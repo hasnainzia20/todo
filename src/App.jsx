@@ -1,11 +1,15 @@
-import React from 'react'
+import AddTodo from "./AddTodo";
 
 const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
-}
+    <div className="text-center">
+      <h1 className="text-5xl font-bold text-center py-3">
+        Welcome to TODO !
+      </h1>
+      
+      <AddTodo />
+    </div>
+  );
+};
 
-export default App
+export default App;
